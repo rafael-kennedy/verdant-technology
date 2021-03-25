@@ -15,6 +15,12 @@ module.exports = {
       colors: {
         primary: colors.lime,
       },
+      backgroundImage: (theme) => ({
+        "front": `url('/static/img/road.jpg');   
+                         background-repeat: no-repeat;
+                         background-position: center; 
+                         background-size: cover;`,
+      }),
     },
   },
   variants: {},

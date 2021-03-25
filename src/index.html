@@ -5,18 +5,14 @@ description: Custom Technology Solutions
 path: home
 ---
 
-<div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
+<div
+  class="container w-screen h-screen flex flex-col justify-center items-center bg-front"
+>
   <h1>
-    Welcome to
-    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-      {{title}}
-    </strong>
+    <strong class="outlined text-primary-400"> {{title}} </strong>
   </h1>
 
-  <p>
+  <p class="p-4 text-center text-primary-400 outlined text-3xl">
     Consulting, custom development, and off-the-shelf solutions for everyone!
-    <code class="bg-gray-100 text-blue-800 p-1">/index.njk</code>
   </p>
-
-  {% include "./_includes/partials/content.html" %}
 </div>
