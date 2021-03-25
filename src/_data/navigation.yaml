@@ -1,10 +1,8 @@
 ---
 items:
-  - text: Menu One
-    url: "#"
-  - text: Menu Two
-    url: "#"
-  - text: Menu Three
-    url: "#"
-  - text: Blog
-    url: "/blog"
+  - text: Services
+    url: "/pages/consulting"
+  - text: Platform
+    url: "/pages/verdant-engagement-platform"
+  - text: Contact Us
+    url: "/contact-us"
